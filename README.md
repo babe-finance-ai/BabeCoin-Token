@@ -2,7 +2,7 @@
 Official BEP-20 Token Contract for BabeCoin under AV Ecosystem
 # BabeCoin (BABE)
 
-BabeCoin is the official BEP-20 token of the **AV Ecosystem**, founded by ** Ankan bayen (AV)**.  
+BabeCoin is the official BEP-20 token of the **AV Ecosystem**, founded by **(AV)**.  
 Built on the Binance Smart Chain, BabeCoin will serve as a utility token across various platforms and services within the AV Ecosystem.
 
 ## 🔗 Contract Details
