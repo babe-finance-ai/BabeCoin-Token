@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="Babecoin-babe-finance-ai (1).png" alt="BabeCoin Logo" width="200"/>
+</p>
 # BabeCoin-Token
 Official BEP-20 Token Contract for BabeCoin under AV Ecosystem
 # BabeCoin (BABE)
