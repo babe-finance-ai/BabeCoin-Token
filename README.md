@@ -32,7 +32,7 @@ Built on the Binance Smart Chain, BabeCoin will serve as a utility token across 
 
 ## 🧠 Author
 
-**Ankan Bayen (AV)**  
+**(AV)**  
 Founder & CEO – Babe Finance & AI
 
 ## 📄 License
