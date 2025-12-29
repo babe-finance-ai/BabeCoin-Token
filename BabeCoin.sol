@@ -62,7 +62,7 @@ contract ERC20 is Context, IERC20 {
     string private _name;
     string private _symbol;
 
-    constructor(string memory name_, string memory symbol_) {
+    constructor(string memory name_, string memory symbol_)payable {
         _name = name_;
         _symbol = symbol_;
     }
@@ -169,7 +169,7 @@ contract ERC20 is Context, IERC20 {
 
 // ===== BabeCoin.sol =====
 contract BabeCoin is ERC20, Ownable {
-    constructor(address initialOwner) ERC20("BabeCoin", "BABE") Ownable(initialOwner) {
-        _mint(initialOwner, 60000000 * 10 ** decimals());
+    constructor(address initialOwner) payable ERC20("BabeCoin", "BABE") Ownable(initialOwner) {
+        _mint(initialOwner, 6e7 * 10 ** decimals());
     }
 }
