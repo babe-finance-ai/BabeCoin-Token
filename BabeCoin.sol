@@ -126,19 +126,22 @@ contract ERC20 is Context, IERC20 {
         return true;
     }
 
-    function _transfer(address from, address to, uint256 amount) internal virtual {
-        require(from != address(0), "ERC20: transfer from zero address");
-        require(to != address(0), "ERC20: transfer to zero address");
+   function _transfer(address from, address to, uint256 amount) internal virtual {
+    require(from != address(0), "ERC20: transfer from zero address");
+    require(to != address(0), "ERC20: transfer to zero address");
 
-        uint256 fromBalance = _balances[from];
-        require(fromBalance >= amount, "ERC20: transfer exceeds balance");
-        unchecked {
-            _balances[from] = fromBalance - amount;
-        }
-        _balances[to] += amount;
-
-        emit Transfer(from, to, amount);
+    uint256 fromBalance = _balances[from];
+    require(fromBalance >= amount, "ERC20: transfer exceeds balance");
+    unchecked {
+        _balances[from] = fromBalance - amount;
     }
+    
+    uint256 toBalance = _balances[to];
+    _balances[to] = toBalance + amount;
+
+    emit Transfer(from, to, amount);
+}
+
 
     function _mint(address account, uint256 amount) internal virtual {
         require(account != address(0), "ERC20: mint to zero address");
