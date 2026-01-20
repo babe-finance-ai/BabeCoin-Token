@@ -15,7 +15,7 @@ Built on the Binance Smart Chain, BabeCoin will serve as a utility token across 
 - **Decimals:** 18  
 - **Total Supply:** 60,000,000 BABE  
 - **Contract Address:** [0x0fff41819dd5353Fe62804AA69C577BD154BE5A2](https://bscscan.com/token/0x0fff41819dd5353Fe62804AA69C577BD154BE5A2)  
-- **Deployer Wallet:** 0x94584871bC2587e72C22b992F19D9eCc647FA93E
+
 
 ## ⚙️ Tech Stack
 
