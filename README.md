@@ -34,7 +34,7 @@ Built on the Binance Smart Chain, BabeCoin will serve as a utility token across 
 
 **(AV)**  
 Founder & CEO – Babe Finance & AI
-
+©️Babe finance & AI by AV Ecosystem
 ## 📄 License
 
 This project is licensed under the MIT License.
